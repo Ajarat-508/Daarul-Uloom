@@ -198,94 +198,10 @@ p{
     background: url('../Images/headshot.JPG') no-repeat center center/cover;
 }
 
-/* Section Students */
-#students .items {
-    display: flex;
-}
-
-#students .items img {
-    display: block;
-    margin: auto;
-    width: 90%;
-    border: 1px #0C074A double;
-    border-radius: 50%;
-}
-
-/* Section: Contact */
-#contact {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 1rem;
-    background-color: rgba(204, 220, 235, 0.753);
-  
-   
-}
-
-#contact img{
-    width: 50vw;
-    height: 85vh;
-}
-
-#contact .contact-form {
-    margin: 0.75rem 0;
-    width: 40vw;
-}
-
-#contact .contact-form label {
-    display: block;
-}
-
-#contact .contact-form input,
-#contact .contact-form textarea {
-    width: 100%;
-    border: 1px solid #0C074A;
-    border-radius: 10px;
-    padding: 0.5rem;
-    outline: none;
-    box-shadow: 0 1px 2px rgba(230, 217, 217, 0.1);
-}
-
-
-.footer-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.social-menu ul{
-    display: flex;
-    gap: 4;
-     align-items: center;
-     list-style: none;
-}
-
-.social-menu ul li{
-    display: flex;
-    gap: 4;
-    padding: 0.5rem 0;
-}
-
-.social-menu ul li a{
-    color: white;
-    padding: 0.5rem;
-    margin: 0.5rem;
-    font-size: 1.5rem;
-    border: 1px solid #fcc200;
-    border-radius: 100%;
-}
-
-.social-menu ul li a:hover {
-    background: #1da4e76e;
-    /* border-radius: 10px; */
-}
-
-
-  
+ 
 /* review section */
 
-  main {
+main {
     min-height: 50vh;
     display: flex;
     align-items: center;
@@ -409,3 +325,76 @@ p{
     background: rgb(24, 117, 184);
   }
   
+
+
+/* Section: Contact */
+#contact {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgba(204, 220, 235, 0.753);
+  
+   
+}
+
+#contact img{
+    width: 50vw;
+    height: 85vh;
+}
+
+#contact .contact-form {
+    margin: 0.75rem 0;
+    width: 40vw;
+}
+
+#contact .contact-form label {
+    display: block;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea {
+    width: 100%;
+    border: 1px solid #0C074A;
+    border-radius: 10px;
+    padding: 0.5rem;
+    outline: none;
+    box-shadow: 0 1px 2px rgba(230, 217, 217, 0.1);
+}
+
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.social-menu ul{
+    display: flex;
+    gap: 4;
+     align-items: center;
+     list-style: none;
+}
+
+.social-menu ul li{
+    display: flex;
+    gap: 4;
+    padding: 0.5rem 0;
+}
+
+.social-menu ul li a{
+    color: white;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    font-size: 1.5rem;
+    border: 1px solid #fcc200;
+    border-radius: 20px;
+}
+
+.social-menu ul li a:hover {
+    background: #1da4e76e;
+}
+
+
+ 
